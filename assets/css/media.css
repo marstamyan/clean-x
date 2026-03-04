@@ -437,6 +437,68 @@
   }
 }
 
+/* pricing responsive */
+@media (max-width: 992px) {
+  .pricing__block {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .pricing__card {
+    flex: 0 0 45%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .pricing__block {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pricing__card {
+    flex: 0 0 100%;
+    max-width: 420px;
+    width: 100%;
+  }
+}
+
+/* testimonials responsive */
+@media (max-width: 992px) {
+  .testimonials__block {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .testimonial__card {
+    flex: 0 0 45%;
+  }
+}
+
+@media (max-width: 767px) {
+  .testimonials__block {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .testimonial__card {
+    flex: 0 0 100%;
+    max-width: 480px;
+    width: 100%;
+  }
+}
+
+/* back to top responsive */
+@media (max-width: 480px) {
+  .back-to-top {
+    bottom: 20px;
+    right: 20px;
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+  }
+}
+
 @media (max-width: 380px) {
   .form {
     padding: 40px 30px;

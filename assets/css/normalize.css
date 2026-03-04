@@ -353,9 +353,6 @@ template {
   margin-block: 0;
 }
 
-svg *[fill] {
-  fill: currentColor;
-}
 svg *[stroke] {
   stroke: currentColor;
 }
